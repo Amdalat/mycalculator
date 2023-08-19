@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="calc">
+        <div id="upper">
+            <!-- <div id="history">test1</div> -->
+            <div id="text"></div>
+            <!-- <div id="ans"></div> -->
+        </div>
+        <div id="main">
+            <button class="opp" onclick="clr()">CE</button>
+            <button class="trans"></button>
+            <button class="trans"></button>
+            <button class="opp" onclick="dopp('/')">/</button>
+            <button class="num" onclick="dnum(9)">9</button>
+            <button class="num" onclick="dnum(8)" value="8">8</button>
+            <button class="num" onclick="dnum(7)" value="7">7</button>
+            <button class="opp" onclick="dopp('*')" >*</button>
+            <button class="num" onclick="dnum(6)">6</button>
+            <button class="num" onclick="dnum(5)">5</button>
+            <button class="num" onclick="dnum(4)">4</button>
+            <button class="opp" onclick="dopp('-')">-</button>
+            <button class="num" onclick="dnum(3)">3</button>
+            <button class="num" onclick="dnum(2)">2</button>
+            <button class="num" onclick="dnum(1)">1</button>
+            <button class="opp" onclick="dopp('+')">+</button>
+            <button class="num" onclick="dnum(0)">0</button>
+            <button class="opp" onclick="dnum('.')">.</button>
+            <button class="opp" onclick="del()">del</button>
+            <button class="opp" onclick="evalres()">=</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
