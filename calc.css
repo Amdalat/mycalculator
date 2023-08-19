@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#calc{
+    width: 20pc;
+    height: 29pc;
+    background-color: grey;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 40px;
+}
+#upper{
+    width: 20pc;
+    height: 6pc;
+    background-color: white;
+    border-radius: 20px;
+    margin: auto;
+}
+#history{
+    width: 15pc;
+    height: 2pc;
+    background-color: rgb(182, 175, 175);
+    border-radius: 5px;
+    border-color: black;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: right;
+    line-height: 2.5pc;
+    font-size: 15px;
+}
+#text{
+    width: 18pc;
+    border-radius: 5px;
+    border-color: black;
+    float: right;
+    margin-top: 5px;
+    margin-right:10px;
+    text-align: right;
+    line-height: 2.5pc;
+    font-size: 50px;
+}
+#ans{
+    width: 18pc;
+    height: 2.5pc;
+    background-color: orange;
+    border-radius: 5px;
+    border-color: black;
+    float: right;
+    margin-top: 5px;
+    margin-right:10px;
+    text-align: right;
+    line-height: 2.5pc;
+    font-size: 30px;
+}
+#main{
+    width: 20pc;
+    height: 22pc;
+    background-color: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.opp, .num{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border-radius: 30px;
+    border: none;
+    margin: auto;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.trans{
+    width: 60px;
+    height: 60px;
+    background-color: grey;
+    border-radius: 30px;
+    border: none;
+    margin: auto;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
