@@ -7,6 +7,10 @@ let arr = [];
 for(i=0; i<opp.length; i++){
         arr.push(opp[i].innerText);
     }
+let oton = [];
+for(i=0; i<=9; i++){
+        oton.push(i);
+    }
 // code starts here
 function isValidExpression(expression) {
     const decimalRegex = /[0-9]*\./;
@@ -103,7 +107,12 @@ function dopp(sign){
             }
             else if(sign == '/' || sign == '*'){
                 if(last == '-'){
-                    result.innerText = snlast+sign
+                    if(oton.includes(Number(slast))){
+                        result.innerText = nlast+sign
+                    }
+                    else{
+                        result.innerText = snlast+sign
+                    }
                 }
                 else if(last == '+'){
                     result.innerText = nlast+sign
